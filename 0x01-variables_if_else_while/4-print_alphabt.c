@@ -13,8 +13,8 @@ int main(void)
 		if ((low_c != 'e') && (low_c != 'q'))
 		{
 			putchar(low_c);
-			low_c++;
 		}
+		low_c++;
 	}
 	putchar('\n');
 	return (0);
