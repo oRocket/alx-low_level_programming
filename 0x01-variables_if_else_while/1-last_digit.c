@@ -20,7 +20,7 @@ int n;
 	{
 		printf("%i is 0\n", n);
 	}
-	else
+	else if (((n % 10) < 6) && ((n % 10) ! = 0))
 	{
 		printf("%i is less than 6 and not 0\n", n);
 	}
