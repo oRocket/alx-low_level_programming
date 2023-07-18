@@ -7,7 +7,7 @@
 int print_last_digit(int a)
 {
 	int z; /*last digit number definition*/
-	
+
 	z = a % 10;
 	if (z < 0)
 	{
