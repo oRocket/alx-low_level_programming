@@ -23,13 +23,12 @@ int main(void)
 		a = b;
 		b = c;
 		c = a + b;
-	if (c < 50)
-	{
-		printf(", ");
-	}
+		if (c < 50)
+		{
+			printf(", ");
+		}
 	}
 	printf("\n");
-
 	return (0);
 }
 
