@@ -23,9 +23,8 @@ void print_times_table(int n)
 					_putchar('0' + p);
 				else
 				{
-					_putchar(' ');
-					_putchar(' ');
 					_putchar(',');
+					_putchar(' ');
 					if (p <= 9)
 					{
 						_putchar(' ');
