@@ -20,7 +20,7 @@ int main(void)
 		a += b;
 		b += a;
 	}
-		if (c % 2 == 1)
+		if (ct % 2 == 1)
 			printf("%li, ", a);
 		printf("\n");
 
