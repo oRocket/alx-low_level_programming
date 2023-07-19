@@ -16,7 +16,9 @@ int main(void)
 
 	for (c = 1; c <= (ct / 2); c++)
 	{
-		printf("%li, %li, ", a, b);
+		printf("%li, %li ", a, b);
+		if (ct < 50)
+			printf(", ");
 		a += b;
 		b += a;
 	}
