@@ -16,14 +16,15 @@ int main(void)
 
 	for (c = 1; c <= (ct / 2); c++)
 	{
+		putchar(',');
 		printf("%li %li ", a, b);
 		a += b;
 		b += a;
 	}
 	if (ct % 2 == 1)
+		putchar(',');
 		printf("%li", a);
 
-	putchar(',');
 	printf("\n");
 
 	return (0);
