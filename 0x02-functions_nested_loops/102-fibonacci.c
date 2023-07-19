@@ -16,12 +16,11 @@ int main(void)
 
 	for (c = 1; c <= (ct / 2); c++)
 	{
-		printf("%li, %li ", a, b);
-		if (a < ct)
+		printf("%li, %li, ", a, b);
 		{
-			printf(",");
-			a += b;
-			b += a;
+		printf(",");
+		a += b;
+		b += a;
 		}
 	}
 		if (ct % 2 == 1)
