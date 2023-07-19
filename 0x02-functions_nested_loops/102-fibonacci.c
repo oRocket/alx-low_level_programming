@@ -5,10 +5,7 @@
  */
 int main(void)
 {
-	long int c; /*defining variable counter*/
-	long int a;
-	long int b;
-	long int n;
+	long int c, a, b, n; /*defining variable counter*/
 
 	a = 1;
 	
