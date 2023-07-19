@@ -18,9 +18,11 @@ int main(void)
 	{
 		printf("%li, %li, ", a, b);
 		if (ct < 50)
+		{
 			printf(", ");
 		a += b;
 		b += a;
+		}
 	}
 		if (ct % 2 == 1)
 			printf("%li, ", a);
