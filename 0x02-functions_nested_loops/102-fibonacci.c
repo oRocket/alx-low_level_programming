@@ -26,6 +26,7 @@ int main(void)
 		n = a + b;
 		a = b;
 		b = n;
+	}
 }
 
 
