@@ -5,18 +5,13 @@
  */
 int main(void)
 {
-	int c;
-	float a;
-	float b;
-	float d;
-
-	c = 2;
-	a = 1;
-	b = a + 1;
-	d = a + b;
+	int c = 2;
+	float a = 1;
+	float b = a + 1;
+	float d = a + b;
 
 	printf("%f, ", a);
-	printf("%f, ", b)
+	printf("%f, ", b);
 
 		while (c < 98)
 		{
