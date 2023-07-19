@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_times_table - prints the n yimes table
+ * main - prints the n times table
+ * print_times_table - prints the n times table
  * @n: integer under review
+ * Return: Always 0 success
  */
 void print_times_table(int n)
 {
