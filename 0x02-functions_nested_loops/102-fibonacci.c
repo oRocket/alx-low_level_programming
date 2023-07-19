@@ -19,7 +19,7 @@ int main(void)
 		printf("%li, %li", a, b);
 		if (b < 20365011074)
 		{
-			printf(", ");
+			printf(",");
 		}
 		a += b;
 		b += a;
