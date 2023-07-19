@@ -16,10 +16,10 @@ int main(void)
 
 	for (c = 1; c <= (ct / 2); c++)
 	{
-		printf("%li, %li, ", a, b);
-		if (ct < 50)
+		printf("%li, %li ", a, b);
+		if (b < ct)
 		{
-			printf(", ");
+			printf(",");
 		}
 		a += b;
 		b += a;
