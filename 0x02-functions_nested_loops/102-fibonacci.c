@@ -14,7 +14,7 @@ int main(void)
 	a = 1;
 	b = 2;
 
-	for (c = 1; c <= 50; c++)
+	for (c = 1; c <= 25; c++)
 	{
 		printf("%li, %li, ", a, b);
 		a += b;
