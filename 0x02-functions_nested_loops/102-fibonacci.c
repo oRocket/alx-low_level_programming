@@ -16,7 +16,7 @@ int main(void)
 
 	for (c = 1; c <= 25; c++)
 	{
-		printf("%li %li ", a, b);
+		printf("%li, %li ", a, b);
 		if (a < b)
 		{
 			printf(",");
