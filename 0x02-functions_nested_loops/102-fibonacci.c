@@ -5,31 +5,27 @@
  */
 int main(void)
 {
-	int c; /*defining variable counter*/
-	long a;
-	long b;
-	long c;
+	long int c; /*defining variable counter*/
+	long int a;
+	long int b;
+	long int n;
 
-	c = 2
 	a = 1;
-	b = a + 1;
-	c = a + b;
+	b = 2;
 
-	printf("%ld, %ld, ", a, b);
-	while (c < 50)
+	for (c = 1; c <= 50; c++)
 	{
-		printf("%ld", c);
-		c++;
-		a = b;
-		b = c;
-		c = a + b;
-		if (c < 50)
+		if (a != 20365011074)
 		{
-			printf(", ");
+			printf("%ld, ", a);
 		}
-	}
-	printf("\n");
-	return (0);
+		else
+		{
+			printf("%ld\n", a);
+		}
+		n = a + b;
+		a = b;
+		b = n;
 }
 
 
