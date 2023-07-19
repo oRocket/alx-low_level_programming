@@ -14,10 +14,10 @@ int main(void)
 	a = 1;
 	b = 2;
 
-	for (c = 1; c <= 25; c++)
+	for (c = 1; c <= (ct / 2); c++)
 	{
 		printf("%li, %li ", a, b);
-		if (a < b)
+		if (a < ct)
 		{
 			printf(",");
 			a += b;
