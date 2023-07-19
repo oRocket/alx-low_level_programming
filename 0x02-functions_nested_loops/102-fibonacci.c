@@ -19,13 +19,13 @@ int main(void)
 		printf("%li, %li", a, b);
 		if (b < 20365011074)
 		{
-			printf(",");
+			printf(", ");
 		}
 		a += b;
 		b += a;
 	}
 		if (ct % 2 == 1)
-			printf("%li, ", a);
+			printf("%li", a);
 
 		return (0);
 }
