@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints the n times table
  * print_times_table - prints the n times table
  * @n: integer under review
  * Return: Always 0 success
