@@ -6,24 +6,28 @@
 int main(void)
 {
 	int c; /*defining variable counter*/
-	int ct; /*defining variable count to*/
 	long a;
 	long b;
+	long c;
 
-	ct = 50;
+	c = 2
 	a = 1;
-	b = 2;
+	b = a + 1;
+	c = a + b;
 
-	for (c = 1; c <= (ct / 2); c++)
+	printf("%ld, %ld, ", a, b);
+	while (c < 50)
 	{
-		printf("%li, %li ", a, b);
-		a += b;
-		b += a;
-	}
-	if (ct % 2 == 1)
-		printf("%li", a);
+		printf("%ld", c);
+		c++;
+		a = b;
+		b = c;
+		c = a + b;
+	if (c < 50)
+	{
 		printf(", ");
-
+	}
+	}
 	printf("\n");
 
 	return (0);
