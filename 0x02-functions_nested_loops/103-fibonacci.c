@@ -5,22 +5,26 @@
  */
 int main(void)
 {
-	int sum_evens;
-	int a;
-	int b;
-	int sum;
+	int c;
+	long int a;
+	long int b;
+	long int sum;
 
-	sum_evens = 0;
-	sum = 1;
+	c = 0;
+	a = 1;
+	b = a;
+	sum = a + b;
 
-	while (b < 4000000)
+	while (sum < 4000000)
 	{
-		sum = a + b;
+		if (sum % 2 == 0)
+		{
+			c += sum;
+		}
 		a = b;
 		b = sum;
-		if ((sum <= 4000000) && (sum % 2 == 0))
-			sum_evens = sum_evens + sum;
+		sum = a + b;
 	}
-	printf("%i\n", sum_evens);
+	printf("%i\n", c);
 	return (0);
 }
