@@ -6,6 +6,7 @@
 void print_rev(char *s)
 {
 	int c; /* count(c) variable definition*/
+
 	c = 0;
 
 	while (c >= 0)
