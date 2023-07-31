@@ -1,28 +1,21 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums - prints the sum of the two diagonals
- * @a: input pointer
- * @size: matrix of integer
+ * @a: pointer.
+ * @size: matrix
  * Return: no return
  */
 void print_diagsums(int *a, int size)
 {
-	int i;
-	int j;
-	int sum1;
-	int sum2;
+	int i, sum1 = 0, sum2 = 0;
 
-	i = 0;
-	j = 0;
-	sum1 = 0;
-	sum2 = 0;
-
-	while (i < size)
+	for (i = 0; i < (size * size); i++)
 	{
-		sum1 += *(a + i * size + j + i);
-		sum2 += *(a + i * size + size - j - 1);
-		i++;
+		if (i % (size + 1) == 0)
+			sum1 += *(a + i);
+		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
+			sum2 += *(a + i);
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
