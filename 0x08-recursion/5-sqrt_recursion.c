@@ -17,7 +17,7 @@ int _sqrt_recursion(int n)
 	return (_sqrt_assist(n, 1));
 }
 /**
- * _sqrt_assit - aids function for _sqrt_recursion
+ * _sqrt_assist - aids function for _sqrt_recursion
  * @n: number for argument
  * @a: integer to square
  * Return: naturak square root of n
