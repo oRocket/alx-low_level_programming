@@ -14,6 +14,7 @@ listint_t *find_listint_loop(listint_t *head)
 		return (NULL);
 
 	do
+
 	{
 		if (!fast_runner || !fast_runner->next)
 			return (NULL);
