@@ -10,3 +10,4 @@ int main(void)
 	print_alx();
 	return (EXIT_SUCCESS);
 }
+/* School */
