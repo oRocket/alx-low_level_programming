@@ -20,6 +20,7 @@ def island_perimeter(grid):
                     p += 1  # right
     return p
 
+
 """
 Method for rectangular island only, no odd shapes
     maxWidth = 0
